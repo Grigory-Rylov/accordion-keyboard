@@ -1,4 +1,4 @@
-// portable_pad.overlay
+// accordion_keyboard.overlay
 
 #include "accordion_keyboard.dtsi" // Notice that the main dtsi files are included in the overlay.
 
