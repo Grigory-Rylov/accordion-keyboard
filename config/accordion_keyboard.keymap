@@ -101,7 +101,7 @@
         default_layer {
             bindings = <
 &kp Q        &kp W           &kp E           &kp R             &kp T        &kp Y        &kp U        &kp I         &kp O       &kp P
-&mt LCTRL A  &mt LEFT_GUI S h/z   &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G        &kp H        &mt RSHFT J  &mt RALT K    &mt RGUI L  &mt RCTRL SEMICOLON
+&mt LCTRL A  &mt LEFT_GUI S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G        &kp H        &mt RSHFT J  &mt RALT K    &mt RGUI L  &mt RCTRL SEMICOLON
 &kp Z        &kp X           &kp X           &kp V             &kp B        &kp N        &kp M        &kp COMMA     &kp PERIOD  &kp SLASH
                              &mo NAVIGATION           &lt FUNCTION SPACE       &mo NUMBERS        &lt 4 ENTER  &lt SYMBOLS SPACE  &kp TAB
             >;
@@ -123,7 +123,7 @@
 &none             &none     &none                 &none            &none       &bt BT_NXT  &kp F7  &kp F8    &kp F9  &kp F10
 &kp LEFT_CONTROL  &kp LGUI  &kp LALT              &kp LSHFT        &none       &bt BT_PRV  &kp F4  &kp F5    &kp F6  &kp F11
 &none             &none     &none                 &none            &none       &kp INS     &kp F1  &kp F2    &kp F3  &kp F12
-                         &none     &none                 &none                                            &kp SEMI  &none   &trans
+                            &none                 &none            &none       &kp SEMI    &none   &trans
             >;
         };
 
