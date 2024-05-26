@@ -109,27 +109,27 @@
 
         NAVIGATION {
             bindings = <
-&kp BACKSPACE  &none        &kp TAB         &kp COMMA  &kp UP_ARROW    &kp PERIOD        &none            &none              &none  &none
-&none          &mo SYMBOLS  &kp LEFT_SHIFT  &kp ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &none              &none  &none
-&none          &none        &kp HOME        &none      &kp END         &kp LEFT_BRACKET  &kp SQT          &kp RIGHT_BRACKET  &none  &none
+&none             &none             &none              &none       &none          &kp LG(X)  &kp HOME   &kp UP       &kp END        &kp LG(Y)
+&kp LEFT_CONTROL  &kp LGUI          &kp LALT           &kp LSHIFT  &kp BACKSPACE  &kp LG(C)  &kp LEFT   &kp DOWN     &kp RIGHT      &kp DELETE
+&none             &kp LG(LA(LEFT))  &kp LG(LA(RIGHT))  &none       &none          &kp LG(V)  &kp LG(Z)  &kp PAGE_UP  &kp PAGE_DOWN  &kp LG(A)
                             &none           &none      &none           &none             &none            &none
             >;
         };
 
         FUNCTION {
             bindings = <
-&none             &none     &none     &none      &none  &bt BT_NXT  &kp F7  &kp F8  &kp F9  &kp F10
-&kp LEFT_CONTROL  &kp LGUI  &kp LALT  &kp LSHFT  &none  &bt BT_PRV  &kp F4  &kp F5  &kp F6  &kp F11
-&none             &none     &none     &none      &none  &kp INS     &kp F1  &kp F2  &kp F3  &kp F12
+&none             &none     &none                 &none            &none       &bt BT_NXT  &kp F7  &kp F8    &kp F9  &kp F10
+&kp LEFT_CONTROL  &kp LGUI  &kp LALT              &kp LSHFT        &none       &bt BT_PRV  &kp F4  &kp F5    &kp F6  &kp F11
+&none             &none     &none                 &none            &none       &kp INS     &kp F1  &kp F2    &kp F3  &kp F12
                             &none     &none      &none  &kp SEMI    &none   &trans
             >;
         };
 
         NUMBERS {
             bindings = <
-&kp LBKT  &none      &kp UNDERSCORE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none         &none         &none  &none
-&none     &kp MINUS  &kp LEFT_SHIFT  &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none         &none  &none
-&none     &none      &kp LSHFT       &kp EQUAL     &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none
+&none             &none     &none     &none      &none   &kp GREATER_THAN  &kp N7        &kp N8        &kp N9        &kp COLON
+&kp LEFT_CONTROL  &kp LGUI  &kp LALT  &kp LSHFT  &none   &kp LESS_THAN     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_PARENTHESIS
+&none             &none     &none     &none      &none   &kp EQUAL         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
                      &none           &none         &none         &none         &none         &none
             >;
         };
@@ -145,18 +145,18 @@
 
         SYMBOLS {
             bindings = <
-&kp LBKT  &kp Q      &kp W      &kp E  &kp R  &kp T  &none  &none  &none  &none
-&none     &kp LCTRL  &kp A      &kp S  &kp D  &kp F  &kp G  &none  &none  &none
-&none     &none      &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &none  &none
+&kp SQT         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp DOLLAR      &kp PIPE      &kp HASH       &kp CARET     &none                 &none
+&kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp UNDERSCORE  &kp SLASH     &kp AMPERSAND  &kp PERCENT   &kp MINUS             &none
+&kp LESS_THAN   &kp EXCLAMATION       &kp COLON              &kp GREATER_THAN   &kp AT_SIGN     &kp ASTERISK  &none          &none         &none                 &none
                      &none      &none  &none  &none  &none  &none
             >;
         };
 
         HOTKEYS {
             bindings = <
-&none  &none  &bt BT_PRV  &none       &kp RIGHT_ALT  &none     &none              &none   &none  &none
-&none  &none  &kp TAB     &bt BT_CLR  &none          &kp RGUI  &kp RIGHT_CONTROL  &none   &none  &none
-&none  &none  &none       &none       &bt BT_NXT     &none     &none              &none   &none  &none
+&none  &none       &none          &kp LS(F9)     &kp RS(F10)    &none          &none          &none             &kp LG(LA(O))  &trans
+&none  &none       &none          &kp LG(LA(F))  &kp LC(LS(F))  &kp RA(F1)     &kp RG(N9)     &kp RA(F12)       &kp LG(LA(L))  &kp RS(N5)
+&none  &none       &kp LG(LA(C))  &kp LG(LA(V))  &none          &kp LG(LA(N))  &kp LG(LA(M))  &kp RS(NUMBER_6)  &kp RS(N7)     &none
               &none       &none       &none          &trans    &trans             &trans
             >;
         };
