@@ -1,0 +1,2 @@
+config SHIELD_ACCORDION_KEYBOARD
+    def_bool $(shields_list_contains,accordion_keyboard)
