@@ -1,4 +1,4 @@
-#include "boards/shields/accordion_keyboard/mouse.dtsi"
+//#include "boards/shields/accordion_keyboard/mouse.dtsi"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
