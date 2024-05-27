@@ -109,10 +109,10 @@
 
         NAVIGATION {
             bindings = <
-&none             &none             &none              &none       &none          &kp LG(X)  &kp HOME   &kp UP       &kp END        &kp LG(Y)
-&kp LEFT_CONTROL  &kp LGUI          &kp LALT           &kp LSHIFT  &kp BACKSPACE  &kp LG(C)  &kp LEFT   &kp DOWN     &kp RIGHT      &kp DELETE
-&none             &kp LG(LA(LEFT))  &kp LG(LA(RIGHT))  &none       &none          &kp LG(V)  &kp LG(Z)  &kp PAGE_UP  &kp PAGE_DOWN  &kp LG(A)
-                            &none           &none      &none           &none             &none            &none
+&none             &none             &none              &none            &none          &kp LG(X)  &kp HOME   &kp UP       &kp END        &kp LG(Y)
+&kp LEFT_CONTROL  &kp LGUI          &kp LALT           &kp LSHIFT       &kp BACKSPACE  &kp LG(C)  &kp LEFT   &kp DOWN     &kp RIGHT      &kp DELETE
+&none             &kp LG(LA(LEFT))  &kp LG(LA(RIGHT))  &kp BACKSPACE    &none          &kp LG(V)  &kp LG(Z)  &kp PAGE_UP  &kp PAGE_DOWN  &kp LG(A)
+                            &none           &none      &none            &none             &none            &none
             >;
         };
 
