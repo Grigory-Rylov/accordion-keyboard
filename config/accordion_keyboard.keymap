@@ -76,6 +76,12 @@
             key-positions = <30 32 33 35>;
             bindings = <&bootloader>;
         };
+
+         combo_layer_hotkeys {
+                    timeout-ms = <50>;
+                    key-positions = <30 35>;
+                    bindings = <&mo HOTKEYS>;
+                };
     };
 
     behaviors {
@@ -103,7 +109,7 @@
 &kp Q        &kp W           &kp E           &kp R               &kp T        &kp Y        &kp U              &kp I       &kp O       &kp P
 &mt LCTRL A  &mt LEFT_GUI S  &mt LEFT_ALT D  &mt LEFT_SHIFT F    &kp G        &kp H        &mt RSHFT J        &mt RALT K  &mt RGUI L  &mt RCTRL SEMICOLON
 &kp Z        &kp X           &kp C           &kp V               &kp B        &kp N        &kp M              &kp COMMA   &kp PERIOD  &kp SLASH
-                             &mo NUMBERS &lt FUNCTION SPACE   &mo NAVIGATION   &lt 4 ENTER  &lt SYMBOLS SPACE &kp TAB
+                             &mo NAVIGATION  &lt FUNCTION SPACE  &mo NUMBERS  &kp TAB &lt SYMBOLS SPACE &lt MOUSE ENTER
             >;
         };
 
@@ -112,7 +118,7 @@
 &kp ESC             &none             &none              &none            &none          &kp LG(X)  &kp HOME   &kp UP       &kp END        &kp LG(Y)
 &kp LEFT_CONTROL  &kp LGUI          &kp LALT           &kp LSHIFT       &kp BACKSPACE  &kp LG(C)  &kp LEFT   &kp DOWN     &kp RIGHT      &kp DELETE
 &none             &kp LG(LA(LEFT))  &kp LG(LA(RIGHT))  &kp BACKSPACE    &none          &kp LG(V)  &kp LG(Z)  &kp PAGE_UP  &kp PAGE_DOWN  &kp LG(A)
-                            &none           &none      &trans            &none             &none            &none
+                            &trans           &none     &none            &none             &none            &none
             >;
         };
 
@@ -121,7 +127,7 @@
 &none             &none     &none                 &none            &none       &bt BT_NXT  &kp F7  &kp F8    &kp F9  &kp F10
 &kp LEFT_CONTROL  &kp LGUI  &kp LALT              &kp LSHFT        &none       &bt BT_PRV  &kp F4  &kp F5    &kp F6  &kp F11
 &none             &none     &none                 &none            &none       &kp INS     &kp F1  &kp F2    &kp F3  &kp F12
-                            &none     &none      &none  &kp SEMI    &none   &trans
+                            &none     &none      &trans  &kp SEMI    &none   &none
             >;
         };
 
@@ -130,7 +136,7 @@
 &none             &none     &none     &none      &none   &kp GREATER_THAN  &kp N7        &kp N8        &kp N9        &kp COLON
 &kp LEFT_CONTROL  &kp LGUI  &kp LALT  &kp LSHFT  &none   &kp LESS_THAN     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_PARENTHESIS
 &none             &none     &none     &none      &none   &kp EQUAL         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-                     &none           &none         &none         &none         &none         &none
+                  &trans           &none         &none         &none         &none         &none
             >;
         };
 
@@ -139,7 +145,7 @@
 &none  &msc SCRL_DOWN    &mmv MOVE_UP       &msc SCRL_UP   &none             &none  &none   &none  &none  &none
 &none  &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT   &none          &none  &kp LGUI   &kp RALT  &kp RCTRL  &kp RSHFT
 &none  &msc SCRL_LEFT    &none              &msc SCRL_RIGHT   &none          &none  &none   &none  &none  &none
-              &none  &mkp LCLK   &mkp RCLK  &none  &none  &none
+              &mkp LCLK   &mkp RCLK  &none   &none  &none       &trans
             >;
         };
 
@@ -148,7 +154,7 @@
 &kp SQT         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp DOLLAR      &kp PIPE      &kp HASH       &kp CARET     &none                 &none
 &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp UNDERSCORE  &kp SLASH     &kp AMPERSAND  &kp PERCENT   &kp MINUS             &none
 &kp LESS_THAN   &kp EXCLAMATION       &kp COLON              &kp GREATER_THAN   &kp AT_SIGN     &kp ASTERISK  &none          &none         &none                 &none
-                     &none      &none  &none  &none  &none  &none
+                     &none      &none  &none  &none   &trans  &none
             >;
         };
 
