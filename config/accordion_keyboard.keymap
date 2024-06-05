@@ -151,9 +151,9 @@
 
         SYMBOLS {
             bindings = <
-&kp SQT         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp DOLLAR      &kp PIPE      &kp HASH       &kp CARET     &none                 &none
-&kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp UNDERSCORE  &kp SLASH     &kp AMPERSAND  &kp PERCENT   &kp MINUS             &none
-&kp LESS_THAN   &kp EXCLAMATION       &kp COLON              &kp GREATER_THAN   &kp AT_SIGN     &kp ASTERISK  &none          &none         &none                 &none
+&kp SQT         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &kp DOLLAR      &kp PIPE      &kp HASH              &kp CARET     &kp GRAVE         &none
+&kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp UNDERSCORE  &kp SLASH     &kp AMPERSAND         &kp PERCENT   &kp MINUS         &none
+&kp LESS_THAN   &kp EXCLAMATION       &kp COLON              &kp GREATER_THAN   &kp AT_SIGN     &kp ASTERISK  &kp NON_US_BACKSLASH  &kp TILDE     &none             &none
                      &none      &none  &none  &none   &trans  &none
             >;
         };
