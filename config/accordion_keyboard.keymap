@@ -131,7 +131,7 @@
 &none             &none     &none     &none      &none   &kp GREATER_THAN  &kp N7        &kp N8        &kp N9        &kp COLON
 &kp LEFT_CONTROL  &kp LGUI  &kp LALT  &kp LSHFT  &none   &kp LESS_THAN     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_PARENTHESIS
 &none             &none     &none     &none      &none   &kp EQUAL         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-                  &trans           &none         &none         &none         &none         &none
+                  &trans           &none         &none   &kp MINUS         &kp PLUS      &kp N0
             >;
         };
 
